@@ -142,7 +142,7 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Vulnerable Road Users (VRUs), such as pedestrians and cyclists, face high risk in traffic environments, making it essential to understand the causes and preventability of accidents involving them. Multimodal Large Language Models (MLLMs) have shown promise in complex scene understanding for applications like autonomous driving and accident analysis. However, there is no benchmark specifically designed to evaluate MLLMs in safety-critical situations involving Vulnerable Road Users (VRUs), where fine-grained reasoning, causal inference, and prevention-focused understanding are essential. We present VRU-Accident, the first vision-language benchmark that focuses on real-world traffic accidents involving VRUs, supporting both video question answering and dense captioning to assess MLLMs’ capabilities in accident scene understanding.
+        Vulnerable Road Users (VRUs), such as pedestrians and cyclists, face high risk in traffic environments, making it essential to understand the causes and preventability of accidents involving them. Against this backdrop, Multimodal Large Language Models (MLLMs) have shown promise in complex scene understanding for applications like autonomous driving and accident analysis. However, there is no benchmark specifically designed to evaluate MLLMs in safety-critical situations involving Vulnerable Road Users (VRUs), where fine-grained reasoning, causal inference, and prevention-focused understanding are essential. We present VRU-Accident, the first vision-language benchmark that focuses on real-world traffic accidents involving VRUs, supporting both video question answering and dense captioning to assess MLLMs’ capabilities in accident scene understanding.
       </h2>
     </div>
   </div>
@@ -157,7 +157,6 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p> We present VRU-Accident, a large-scale vision-language benchmark designed to evaluate multimodal large language models (MLLMs) in high-risk traffic scenarios involving Vulnerable Road Users (VRUs) such as pedestrians and cyclists. VRU-Accident comprises 1K real-world dashcam accident videos, annotated with 6K multiple-choice question-answer pairs across six safety-critical categories (with 24K candidate options and 3.4K unique answer choices), as well as 1K dense scene descriptions. Unlike prior works, our benchmark focuses explicitly on VRU-vehicle accidents, providing rich, fine-grained annotations that capture both spatial-temporal dynamics and causal semantics of accidents. To assess the current landscape of MLLMs, we conduct a comprehensive evaluation of 17 state-of-the-art models on the multiple-choice VQA task and on the dense captioning task. Our findings reveal that while MLLMs perform reasonably well on visually grounded attributes, they face significant challenges in reasoning and describing accident causes, types, and preventability.
-
 
           </p>
         </div>
@@ -187,8 +186,26 @@
 
 
 
-<!-- Image  -->
 <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Performance of MLLMs on the VQA Task</h2>
+
+      <div class="content has-text-centered">
+        <img src="static/images/VQA_results.png" alt="VQA result"/>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Image  -->
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Qualitative Examples of VQA and Dense Captioning tasks on VRU-Accident Benchmark</h2>
